@@ -1,0 +1,137 @@
+*{
+    background-color: black;
+    border: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: itim;
+}
+
+li.menu-items {
+    display: inline-flex;
+    margin: 10px;
+    align-items: center
+}
+
+main {
+    margin-bottom: 150px;
+}
+
+/*refactor display flex for container and container-section and header*/
+.container-section, .contain, header, .container-our-locations{
+    display: flex;
+}
+
+.contain {
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    margin-top: 90px;
+}
+
+
+.text-block{
+    text-align: center;
+   position: absolute; 
+    bottom: 200px;
+    color: white;
+    padding: 30px;
+    width: 100%;
+}
+
+.section-area {
+    margin-bottom: 50px;
+}
+
+.h5section{
+    color: #fff;
+    text-align: center;
+}
+
+.container-section {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+
+.section-1 {
+    width: 300px;
+    height: 200px;
+    border-radius: 60px;
+}
+
+.all-p {
+    color: #fff;
+}
+
+.container-our-locations {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-image: url(./images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    align-items: center;
+}
+
+.container-our-locations-1{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 300px;
+    width: 350px;    
+    
+}
+
+.locations-p, h5, .final-parts{
+    color: #fff;
+    font-family: itim;
+}
+
+.all-p{
+    font-size: 18px;
+}
+
+.h5for-locations{
+    margin-top: 100px
+}
+
+/*font-size for .h5for-locations & tea of the month*/
+.h5for-locations, .h5section, h2, h5{
+    font-size: 32px;
+    font-family: lato;
+}
+
+.final-parts {
+    height: 200px;
+}
+
+
+.footer-cozy{
+    text-align: left;
+    color: #fff;
+    font-size: 32px;
+}
+
+/*refactor all font-family in one go*/
+
+.footer-cozy, .final-parts, .all-p, li a, h4{
+    font-family: itim, lato;
+}
+
+/*refactor text aligns*/
+.final-parts, .h5for-locations, .container-our-locations-1, .text-block, .all-p {
+    text-align: center;
+}
